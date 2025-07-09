@@ -1,46 +1,27 @@
-# Soft Safety Switch
-Jeti software safety switch
-![Screenshot](img/on.png?raw=true "Switch On")
-# JCHDT
-Jet Central telemetry display for Jeti DC/DS-24, DS-12 Transmitters
+# Soft Safety Switch - Jeti Transmitters
 
-# Update V1.10:
-- Added Flameout Alarm
-- Added black dials theme
+![Screenshot](img/form.png?raw=true "Soft Safety Switch")
 
+Software safety switch, an alternative to mechanical safety switch to prevent accidental status change in a switch.
+For example to assign trim up/trim down to a turbine engine model instead of using the default trim controls.
 
-![Screenshot 01_V110](img/Screen_01_V110.png?raw=true "Screenshot01V110")
-![Screenshot 02_V110](img/Screen_02_V110.png?raw=true "Screenshot02V110")
-![Screenshot 03_V110](img/Screen_03_V110.png?raw=true "Screenshot03V110")
-
-# Requisites:
-* Updated V2 Jeti Telemetry Module from Jet Central
-* Transmitter firmware version 4.27 LUA or above 
 
 # Installation: 
-- Download JCHDT.lc to Apps folder in your transmitter
-- **Update V1.10** Download /JetCentral/CF.png **AND /JetCentral/BLK.png** to Apps/JetCentral/ folder in your transmitter (If the folder doesn't exists, create a folder called JetCentral inside Apps folder)
+- Download SoftSSW.lc to Apps folder in your transmitter
 - Go to: Menu > Applications > User Applications
-- Press [F3][+] and select JCHDT.lc
-- You can configure the App in: Menu > Timers/Sensors > Jet Central HDT
-- Add "Jet Central HDT" in Menu > Timers/Sensors > Displayed Telemetry for full telemetry diplay or...
-- Add "Jet Central MFD" for small telemetry display
+- Press [F3][+] and select SoftSSW.lc
+- You can configure the App in: Menu > Advanced Properties  > Soft Safety Switch
 
-You can enable "Demo Mode" in App settings and simulate values with:
-- [SC] Status
-- [P5] Fuel
-- [P6] RPM
-- [P7] EGT
-- [P8] ECU Batt
+# Typical Usage: 
+- Remove any previous Throttle Trim settings
+- Assign Throttle-Idle SW to 'User Applications/SSW' and offset value to 20% in: 'Menu > Advanced - Properties > Other Model Options'
+- Run your turbine 'RC-Learning/Radio Setup' again.
 
 # Screenshots:
-![Screenshot 1](img/Screen001.png?raw=true "Screenshot1")
-![Screenshot 3](img/Screen003.png?raw=true "Screenshot3")
-![Screenshot 4](img/Screen004.png?raw=true "Screenshot4")
-![Screenshot 5](img/Screen005.png?raw=true "Screenshot5")
-![Screenshot 6](img/Screen006.png?raw=true "Screenshot6")
-![Screenshot 7](img/Screen007.png?raw=true "Screenshot7")
-![Screenshot 8](img/Screen008.png?raw=true "Screenshot8")
-![Screenshot 9](img/Screen009.png?raw=true "Screenshot9")
-![Screenshot 10](img/Screen010.png?raw=true "Screenshot10")
-![Screenshot 12](img/Screen012.png?raw=true "Screenshot12")
+![Screenshot 1](img/usrapp.png?raw=true "User Applications")
+![Screenshot 3](img/menu.png?raw=true "Menu")
+![Screenshot 4](img/form.png?raw=true "Form")
+![Screenshot 5](img/thridle.png?raw=true "Throttle Idle")
+![Screenshot 6](img/on.png?raw=true "Turn On")
+![Screenshot 7](img/off.png?raw=true "Turn Off")
+
