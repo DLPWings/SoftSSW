@@ -2,7 +2,7 @@
 
 ![Screenshot](img/form.png?raw=true "Soft Safety Switch")
 
-Software safety switch, an alternative to mechanical safety switch to prevent accidental status change in a switch.
+Software safety switch, an alternative to a mechanical safety switch to prevent accidental status changes.
 For example to assign trim up/trim down to a turbine engine model instead of using the default trim controls.
 
 
@@ -10,10 +10,12 @@ For example to assign trim up/trim down to a turbine engine model instead of usi
 - Download SoftSSW.lc to Apps folder in your transmitter
 - Go to: Menu > Applications > User Applications
 - Press [F3][+] and select SoftSSW.lc
-- You can configure the App in: Menu > Advanced Properties  > Soft Safety Switch
+
 
 # Typical Usage: 
-- Remove any previous Throttle Trim settings
+- Configure the App in: Menu > Advanced Properties  > Soft Safety Switch
+- Assign desired switch and personalize the text to your liking.
+- Remove any previous Throttle Trim settings.
 - Assign Throttle-Idle SW to 'User Applications/SSW' and offset value to 20% in: 'Menu > Advanced - Properties > Other Model Options'
 - Run your turbine 'RC-Learning/Radio Setup' again.
 
