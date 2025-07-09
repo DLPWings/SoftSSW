@@ -23,5 +23,7 @@ For example to assign trim up/trim down to a turbine engine model instead of usi
 ![Screenshot 4](img/form.png?raw=true "Form")
 ![Screenshot 5](img/thridle.png?raw=true "Throttle Idle")
 ![Screenshot 6](img/on.png?raw=true "Turn On")
+![Screenshot 65](img/idleup.png?raw=true "Idle Up")
 ![Screenshot 7](img/off.png?raw=true "Turn Off")
+![Screenshot 75](img/idledown.png?raw=true "Idle Down")
 
